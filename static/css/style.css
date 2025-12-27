@@ -17,7 +17,7 @@ body.cv-body {
 .portfolio-list li { margin: 20px 0; padding: 20px; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
 .portfolio-link { font-size: 1.2em; color: #007bff; }
 
-.post-article { /* Giữ nguyên từ trước, thêm .cv-application { border-top: 1px solid #eee; padding-top: 20px; } */ }
+.post-article {  border-top: 1px solid #eee; padding-top: 20px; }
 
  /* Skills bars example */
 .skills-bar { background: #eee; height: 10px; margin: 5px 0; }

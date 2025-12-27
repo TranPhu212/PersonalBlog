@@ -1,4 +1,4 @@
-baseURL = "https://tranphu212.github.io/PersonalBlog/"
+baseURL = "https://TranPhu212.github.io/PersonalBlog/"
 languageCode = "vi-vn"
 title = "Portfolio Lập Trình Mạng - Trần Phú"
 theme = "blowfish"
