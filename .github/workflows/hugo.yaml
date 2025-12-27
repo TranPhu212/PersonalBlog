@@ -9,6 +9,9 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    # ← Thêm phần permissions ở đây
+    permissions:
+      contents: write    # Quan trọng: cho phép push lên repo
     steps:
       - name: Checkout
         uses: actions/checkout@v4
