@@ -1,0 +1,26 @@
+<!-- Custom JavaScript (nếu cần) -->
+<script>
+  // Ví dụ: Smooth scroll cho anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  // Ví dụ: Thêm hiệu ứng typing cho headline (nếu muốn)
+  console.log("%cPortfolio CV của [Tên bạn] - Built with Hugo + Blowfish", "color:#00ffea; font-size:16px; font-weight:bold;");
+</script>
+
+<!-- Google Analytics (tùy chọn - thay YOUR_GA_ID) -->
+<!-- 
+<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'YOUR_GA_ID');
+</script>
+-->

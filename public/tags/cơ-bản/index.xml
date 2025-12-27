@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cơ Bản on Portfolio Lập Trình Mạng - Trần Phú</title>
+    <link>http://localhost:1313/PersonalBlog/tags/c%C6%A1-b%E1%BA%A3n/</link>
+    <description>Recent content in Cơ Bản on Portfolio Lập Trình Mạng - Trần Phú</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi-vn</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/PersonalBlog/tags/c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Java Cơ Bản – Học Lý Thuyết &amp; Chạy Code Trực Tiếp</title>
+      <link>http://localhost:1313/PersonalBlog/blog/java-basic/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/java-basic/</guid>
+      <description>Java Cơ Bản Cho Người Mới Bắt ĐầuJava là ngôn ngữ lập trình biên dịch, hướng đối tượng, được phát triển bởi Sun Microsystems và hiện nay thuộc Oracle. Java được sử dụng rộng rãi trong phát triển ứng dụng doanh nghiệp, web backend, Android và các hệ thống lớn.Ưu điểm lớn nhất của Java là khả năng chạy đa nền tảng nhờ Java Virtual Machine (JVM)với triết lý nổi tiếng: Write Once, Run Anywhere.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

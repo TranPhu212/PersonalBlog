@@ -1,0 +1,358 @@
+<style>
+  .custom-homepage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  /* === LÀM NỔI BẬT TIÊU ĐỀ TRANG CHỦ - SIÊU ĐẸP === */
+  .section-title {
+    font-size: 3rem;                    /* To, nổi bật */
+    font-weight: 800;
+    text-align: center;
+    margin: 5rem 0 3.5rem;
+    color: #00ffea;                     /* Màu neon cyan chủ đạo */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    text-shadow: 
+      0 0 10px rgba(0, 255, 234, 0.6),
+      0 0 20px rgba(0, 255, 234, 0.4),
+      0 0 40px rgba(0, 255, 234, 0.2);
+    animation: glowPulse 3s ease-in-out infinite alternate;
+  }
+
+  /* Icon tia sét trước tiêu đề */
+  .section-title::before {
+    content: '⚡';
+    font-size: 2.8rem;
+    margin-right: 20px;
+    vertical-align: middle;
+    opacity: 0.9;
+    animation: spark 2s ease-in-out infinite;
+  }
+
+  /* Gạch dưới gradient neon */
+  .section-title::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 8px;
+    background: linear-gradient(90deg, transparent, #00ffea, #007bff, transparent);
+    margin: 1.5rem auto 0;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #00ffea, 0 0 40px #007bff;
+    animation: underlineGlow 4s ease-in-out infinite;
+  }
+
+  /* Animation glow nhẹ cho chữ */
+  @keyframes glowPulse {
+    from {
+      text-shadow: 
+        0 0 10px rgba(0, 255, 234, 0.4),
+        0 0 20px rgba(0, 255, 234, 0.2),
+        0 0 30px rgba(0, 255, 234, 0.1);
+    }
+    to {
+      text-shadow: 
+        0 0 20px rgba(0, 255, 234, 0.8),
+        0 0 40px rgba(0, 255, 234, 0.6),
+        0 0 60px rgba(0, 255, 234, 0.4);
+    }
+  }
+
+  /* Animation icon tia sét nhấp nháy */
+  @keyframes spark {
+    0%, 100% { opacity: 0.7; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.1); }
+  }
+
+  /* Animation gạch dưới di chuyển nhẹ */
+  @keyframes underlineGlow {
+    0%, 100% { 
+      box-shadow: 0 0 20px #00ffea, 0 0 40px #007bff;
+      transform: translateX(-5px);
+    }
+    50% { 
+      box-shadow: 0 0 30px #00ffea, 0 0 60px #007bff;
+      transform: translateX(5px);
+    }
+  }
+
+  /* Responsive cho mobile */
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+      margin: 4rem 0 2.5rem;
+    }
+    .section-title::before {
+      font-size: 2rem;
+      margin-right: 10px;
+    }
+    .section-title::after {
+      width: 100px;
+      height: 6px;
+    }
+  }
+
+  /* === GIỮ NGUYÊN CÁC STYLE KHÁC ĐẸP CỦA BẠN === */
+  /* Phần 1: About card nổi bật */
+  .about-section { margin-bottom: 5rem; }
+
+  .about-card {
+    display: flex;
+    align-items: center;
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid #1e293b;
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 0 10px 30px rgba(0, 255, 234, 0.1);
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .about-image { flex: 0 0 300px; }
+
+  .profile-photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    border: 4px solid #00ffea;
+    box-shadow: 0 0 30px rgba(0, 255, 234, 0.4);
+  }
+
+  .about-info { flex: 1; min-width: 300px; }
+
+  .about-name {
+    font-size: 3rem;
+    margin: 0 0 0.5rem;
+    color: #00ffea;
+  }
+
+  .about-headline {
+    font-size: 1.8rem;
+    margin: 0 0 1.5rem;
+    color: #e2e8f0;
+  }
+
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #cbd5e1;
+  }
+
+  .about-social a {
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: #94a3b8;
+    transition: all 0.3s;
+  }
+
+  .about-social a:hover {
+    color: #00ffea;
+    transform: translateY(-5px);
+  }
+
+  .about-buttons { margin-top: 2rem; }
+
+  /* Phần 2: Skills tags */
+  .skills-section { margin-bottom: 5rem; text-align: center; }
+
+  .skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .skill-tag {
+    background: linear-gradient(135deg, #00ffea, #007bff);
+    color: #0f172a;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 15px rgba(0, 255, 234, 0.3);
+    transition: all 0.3s;
+    text-align: center;
+    min-width: 180px;
+  }
+
+  .skill-tag:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 255, 234, 0.5);
+  }
+
+  /* Phần 3: Featured posts */
+  .featured-section { margin-bottom: 4rem; }
+
+  .featured-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .post-card {
+    background: rgba(15, 23, 42, 0.6);
+    border-radius: 16px;
+    padding: 2rem;
+    border: 1px solid #1e293b;
+    transition: all 0.3s;
+  }
+
+  .post-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 255, 234, 0.2);
+    border-color: #00ffea;
+  }
+
+  .post-card h3 {
+    margin: 0 0 1rem;
+    font-size: 1.4rem;
+  }
+
+  .post-card h3 a {
+    color: #00ffea;
+    text-decoration: none;
+  }
+
+  .post-summary { color: #cbd5e1; margin-bottom: 1rem; }
+
+  .post-meta {
+    font-size: 0.9rem;
+    color: #64748b;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .tag {
+    background: #1e293b;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+  }
+
+  .view-all { text-align: center; margin-top: 3rem; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-card {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+    .about-image { flex: none; margin-bottom: 2rem; }
+    .skills-tags { gap: 1rem; }
+    .skill-tag { font-size: 1rem; padding: 0.8rem 1.5rem; }
+    .featured-posts { grid-template-columns: 1fr; }
+  }
+  /* === NÚT CV BUTTON - NHỎ GỌN, NẰM NGANG, VẪN NỔI BẬT NEON === */
+  .about-buttons {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: flex-start;    /* Nút nằm ngang bên trái */
+    align-items: center;
+    gap: 2rem;                      /* Khoảng cách giữa 2 nút */
+    flex-wrap: wrap;                /* Mobile sẽ xuống dòng nếu cần */
+  }
+
+  .cv-button {
+    display: inline-block;
+    padding: 12px 28px;             /* Giảm padding → nút nhỏ hơn */
+    margin: 0;                      /* Bỏ margin cũ */
+    font-size: 1.05rem;             /* Chữ nhỏ hơn một chút */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    min-width: 200px;               /* Giới hạn chiều rộng tối thiểu */
+    text-align: center;
+    box-shadow: 
+      0 0 15px rgba(0, 255, 234, 0.3),
+      inset 0 0 10px rgba(0, 255, 234, 0.1);
+  }
+
+  /* Nút chính: Xem Resume Chi Tiết - Viền neon */
+  .cv-button.primary {
+    background: transparent;
+    color: #00ffea;
+    border: 3px solid #00ffea;
+  }
+
+  /* Nút phụ: Xem Portfolio - Nền gradient */
+  .cv-button.secondary {
+    background: linear-gradient(135deg, #007bff, #00ffea);
+    color: #0f172a;
+    border: 3px solid transparent;
+  }
+
+  /* Hover effect nhẹ nhàng, tinh tế */
+  .cv-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 
+      0 10px 25px rgba(0, 255, 234, 0.5),
+      0 0 30px rgba(0, 123, 255, 0.3);
+  }
+
+  .cv-button.primary:hover {
+    background: rgba(0, 255, 234, 0.1);
+    box-shadow: 
+      0 0 35px rgba(0, 255, 234, 0.7),
+      inset 0 0 20px rgba(0, 255, 234, 0.2);
+  }
+
+  .cv-button.secondary:hover {
+    box-shadow: 0 0 40px rgba(0, 255, 234, 0.6);
+    border-color: #00ffea;
+  }
+
+  /* Ripple nhẹ khi click */
+  .cv-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+    z-index: -1;
+  }
+
+  .cv-button:active::before {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Responsive: mobile xếp dọc, căn giữa */
+  @media (max-width: 768px) {
+    .about-buttons {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1.2rem;
+    }
+
+    .cv-button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      min-width: auto;
+      width: 100%;
+    }
+  }
+</style>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />

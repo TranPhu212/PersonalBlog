@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio Lập Trình Mạng - Trần Phú</title>
+    <link>http://localhost:1313/PersonalBlog/</link>
+    <description>Recent content on Portfolio Lập Trình Mạng - Trần Phú</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi-vn</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/PersonalBlog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Async/Await Trong JavaScript: Hướng Dẫn Chi Tiết Cho Người Mới</title>
+      <link>http://localhost:1313/PersonalBlog/blog/async-await/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/async-await/</guid>
+      <description>Async/Await Trong JavaScript: Hướng Dẫn Chi TiếtTrong lập trình web hiện đại, hầu hết các tác vụ như gọi API, đọc file, hoặc chờ phản hồi từ server đều là bất đồng bộ. Nếu không xử lý đúng cách, code sẽ rối rắm (callback hell) hoặc ứng dụng bị treo.Async/await là cú pháp hiện đại nhất của JavaScript (từ ES2017) giúp viết code bất đồng bộ gần giống đồng bộ, dễ đọc và dễ bảo trì hơn rất nhiều so với callback hay Promise thuần.</description>
+      
+    </item>
+    
+    <item>
+      <title>Java Cơ Bản – Học Lý Thuyết &amp; Chạy Code Trực Tiếp</title>
+      <link>http://localhost:1313/PersonalBlog/blog/java-basic/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/java-basic/</guid>
+      <description>Java Cơ Bản Cho Người Mới Bắt ĐầuJava là ngôn ngữ lập trình biên dịch, hướng đối tượng, được phát triển bởi Sun Microsystems và hiện nay thuộc Oracle. Java được sử dụng rộng rãi trong phát triển ứng dụng doanh nghiệp, web backend, Android và các hệ thống lớn.Ưu điểm lớn nhất của Java là khả năng chạy đa nền tảng nhờ Java Virtual Machine (JVM)với triết lý nổi tiếng: Write Once, Run Anywhere.</description>
+      
+    </item>
+    
+    <item>
+      <title>JavaScript Cơ Bản: Từ Khóa Học Web Đến Ứng Dụng Thực Tế</title>
+      <link>http://localhost:1313/PersonalBlog/blog/js-basic/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/js-basic/</guid>
+      <description>JavaScript Cơ Bản: Từ Khóa Học Web Đến Ứng Dụng Thực TếJavaScript (JS) là ngôn ngữ lập trình không liên quan gì đến Java về kỹ thuật, dù tên gần giống. JS là một trong ba trụ cột của web hiện đại (cùng HTML và CSS), chạy trực tiếp trên trình duyệt và cả server (Node.js).JS là dynamically typed, linh hoạt, và mạnh mẽ trong việc thêm tương tác cho trang web: từ validate form, slider ảnh, đến ứng dụng web phức tạp như Gmail hay Facebook.</description>
+      
+    </item>
+    
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java: Nền Tảng Và Ứng Dụng Thực Tế</title>
+      <link>http://localhost:1313/PersonalBlog/blog/oop-java/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/oop-java/</guid>
+      <description>Lập Trình Hướng Đối Tượng Trong Java: Nền Tảng Và Ứng Dụng Thực TếLập trình hướng đối tượng (OOP) là cốt lõi thiết kế của Java. Mọi thứ trong Java đều là đối tượng (trừ một số kiểu nguyên thủy). OOP giúp code dễ bảo trì, tái sử dụng và mở rộng – đặc biệt quan trọng trong các dự án lớn như hệ thống ngân hàng, doanh nghiệp.</description>
+      
+    </item>
+    
+    <item>
+      <title>Lập Trình Mạng Với Socket Trong Java: Từ Cơ Bản Đến Ứng Dụng Thực Tế</title>
+      <link>http://localhost:1313/PersonalBlog/blog/socket-java/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/socket-java/</guid>
+      <description>Lập Trình Mạng Với Socket Trong Java: Từ Cơ Bản Đến Ứng Dụng Thực TếLập trình socket là kỹ năng quan trọng khi xây dựng các ứng dụng mạng trong Java. Socket cho phép hai chương trình (client và server) giao tiếp qua mạng sử dụng giao thức TCP/IP – đảm bảo dữ liệu đến đúng thứ tự và không mất mát.</description>
+      
+    </item>
+    
+    <item>
+      <title>Mẹo Debug JavaScript Hiệu Quả: Từ Cơ Bản Đến Nâng Cao</title>
+      <link>http://localhost:1313/PersonalBlog/blog/debug-js/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/debug-js/</guid>
+      <description>Mẹo Debug JavaScript Hiệu Quả: Từ Cơ Bản Đến Nâng CaoDebug là kỹ năng quan trọng nhất của lập trình viên – giúp bạn tìm và sửa lỗi nhanh chóng, hiểu rõ flow của code. Dù bạn mới bắt đầu hay đã có kinh nghiệm, việc debug hiệu quả sẽ tiết kiệm hàng giờ làm việc.Bài viết này tổng hợp các mẹo từ cơ bản (console.log) đến nâng cao (Chrome DevTools, breakpoint, performance), kèm ví dụ thực tế và code chạy trực tiếp để bạn tự thử debug.</description>
+      
+    </item>
+    
+    <item>
+      <title>So Sánh Java Và JavaScript Trong Lập Trình Mạng: Điểm Giống Và Khác Biệt</title>
+      <link>http://localhost:1313/PersonalBlog/blog/java-vs-js/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/java-vs-js/</guid>
+      <description>So Sánh Java Và JavaScript Trong Lập Trình Mạng: Điểm Giống Và Khác BiệtDù tên gọi gần giống nhau, Java và JavaScript là hai ngôn ngữ hoàn toàn khác biệt về thiết kế, mục đích và cách hoạt động. Nhiều người mới hay nhầm lẫn, nhưng thực tế chúng chỉ chung “cha đẻ” thời kỳ đầu internet bùng nổ.</description>
+      
+    </item>
+    
+    <item>
+      <title>Thao Tác Với DOM Trong JavaScript: Làm Chủ Giao Diện Web</title>
+      <link>http://localhost:1313/PersonalBlog/blog/dom-js/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/dom-js/</guid>
+      <description>Thao Tác Với DOM Trong JavaScript: Làm Chủ Giao Diện WebDOM (Document Object Model) là cây cấu trúc đại diện cho toàn bộ trang HTML. JavaScript có thể đọc, thay đổi, thêm/xóa phần tử trên DOM → biến trang web tĩnh thành động và tương tác.DOM là nền tảng của mọi thao tác frontend: thay đổi nội dung, style, xử lý click, form validation… và cũng là cơ sở cho các framework hiện đại như React, Vue.</description>
+      
+    </item>
+    
+    <item>
+      <title>Xây Dựng Ứng Dụng Chat Đơn Giản Bằng Java Socket: Hướng Dẫn Từ A Đến Z</title>
+      <link>http://localhost:1313/PersonalBlog/blog/java-socket-chat.md/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/java-socket-chat.md/</guid>
+      <description>Xây Dựng Ứng Dụng Chat Đơn Giản Bằng Java Socket: Hướng Dẫn Từ A Đến ZXây dựng ứng dụng chat client-server là một trong những dự án thực tế thú vị nhất để nắm vững lập trình mạng trong Java. Dự án này giúp bạn hiểu sâu về Socket TCP, multi-threading, và cách xử lý kết nối đồng thời.</description>
+      
+    </item>
+    
+    <item>
+      <title>Chứng chỉ - Certifications</title>
+      <link>http://localhost:1313/PersonalBlog/chung-chi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/chung-chi/</guid>
+      <description>Danh sách chứng chỉ#Những chứng chỉ dưới đây chứng minh kỹ năng chuyên môn, từ cơ bản đến nâng cao, giúp tôi apply vị trí Developer.
+Chứng chỉ Tổ chức Năm Mô tả & Lợi ích cho CV Link/Ảnh NetworkingBasics Cisco Networking Academy 2025 Kiến thức cơ bản về mạng máy tính (OSI model, IP addressing, subnetting). Hỗ trợ hiểu hạ tầng mạng trong lập trình ứng dụng và game multiplayer. JavaScriptEssentials1 Cisco Networking Academy 2025 JavaScript cơ bản: biến, hàm, vòng lặp, DOM manipulation, sự kiện. Tăng kỹ năng frontend và xây dựng giao diện web tương tác. JavaScriptEssentials2 Cisco Networking Academy 2025 JavaScript nâng cao: async/await, Fetch API, modules, error handling. Hữu ích cho phát triển ứng dụng web hiện đại. Tổng: 3 chứng chỉ Cisco Networking Academy, hỗ trợ vững chắc cho hồ sơ ứng tuyển vị trí Developer (Web, Game, Full-stack).
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Liên hệ - Contact Me</title>
+      <link>http://localhost:1313/PersonalBlog/lien-he/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/lien-he/</guid>
+      <description>Liên hệ để thảo luận việc làm hoặc hợp tác#Tôi luôn mở cửa cho cơ hội mới. Hãy liên hệ qua:
+Email: phutd0212@gmail.com Phone: 0385470580 GitHub: https://github.com/TranPhu212 Form Liên hệ#Tên: Email: Tin nhắn: Gửi</description>
+      
+    </item>
+    
+    <item>
+      <title>Về tôi - Resume Chi Tiết</title>
+      <link>http://localhost:1313/PersonalBlog/ve-toi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/ve-toi/</guid>
+      <description>Summary Cá Nhân#Tôi là Trần Đình Phú, sinh viên năm 4 trường Đại học Công nghệ TP.HCM (HUTECH), ngành Công nghệ Thông tin, chuyên ngành Công nghệ Phần mềm. Tôi có niềm đam mê đặc biệt với lập trình game, đã thực hiện một số dự án nhỏ trên Unity, đồng thời tham gia phát triển các dự án web và ứng dụng. Blog này là portfolio CV trực tuyến, showcase kiến thức và dự án thực tế. Mục tiêu: Apply vị trí Game Developer, Full-stack Developer hoặc Unity Developer tại công ty công nghệ.
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

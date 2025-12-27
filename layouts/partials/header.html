@@ -1,0 +1,8 @@
+{{/* Override nhẹ header để thêm button CV */}}
+{{ partial "header-default.html" . }}
+
+{{ if .IsHome }}
+<div style="text-align:center; margin-top:20px;">
+  <a href="/ve-toi/" class="cv-button">Xem Resume Chi Tiết</a>
+</div>
+{{ end }}

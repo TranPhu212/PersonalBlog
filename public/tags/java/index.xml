@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Portfolio Lập Trình Mạng - Trần Phú</title>
+    <link>http://localhost:1313/PersonalBlog/tags/java/</link>
+    <description>Recent content in Java on Portfolio Lập Trình Mạng - Trần Phú</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi-vn</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/PersonalBlog/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Java Cơ Bản – Học Lý Thuyết &amp; Chạy Code Trực Tiếp</title>
+      <link>http://localhost:1313/PersonalBlog/blog/java-basic/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/java-basic/</guid>
+      <description>Java Cơ Bản Cho Người Mới Bắt ĐầuJava là ngôn ngữ lập trình biên dịch, hướng đối tượng, được phát triển bởi Sun Microsystems và hiện nay thuộc Oracle. Java được sử dụng rộng rãi trong phát triển ứng dụng doanh nghiệp, web backend, Android và các hệ thống lớn.Ưu điểm lớn nhất của Java là khả năng chạy đa nền tảng nhờ Java Virtual Machine (JVM)với triết lý nổi tiếng: Write Once, Run Anywhere.</description>
+      
+    </item>
+    
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java: Nền Tảng Và Ứng Dụng Thực Tế</title>
+      <link>http://localhost:1313/PersonalBlog/blog/oop-java/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/oop-java/</guid>
+      <description>Lập Trình Hướng Đối Tượng Trong Java: Nền Tảng Và Ứng Dụng Thực TếLập trình hướng đối tượng (OOP) là cốt lõi thiết kế của Java. Mọi thứ trong Java đều là đối tượng (trừ một số kiểu nguyên thủy). OOP giúp code dễ bảo trì, tái sử dụng và mở rộng – đặc biệt quan trọng trong các dự án lớn như hệ thống ngân hàng, doanh nghiệp.</description>
+      
+    </item>
+    
+    <item>
+      <title>Lập Trình Mạng Với Socket Trong Java: Từ Cơ Bản Đến Ứng Dụng Thực Tế</title>
+      <link>http://localhost:1313/PersonalBlog/blog/socket-java/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/socket-java/</guid>
+      <description>Lập Trình Mạng Với Socket Trong Java: Từ Cơ Bản Đến Ứng Dụng Thực TếLập trình socket là kỹ năng quan trọng khi xây dựng các ứng dụng mạng trong Java. Socket cho phép hai chương trình (client và server) giao tiếp qua mạng sử dụng giao thức TCP/IP – đảm bảo dữ liệu đến đúng thứ tự và không mất mát.</description>
+      
+    </item>
+    
+    <item>
+      <title>So Sánh Java Và JavaScript Trong Lập Trình Mạng: Điểm Giống Và Khác Biệt</title>
+      <link>http://localhost:1313/PersonalBlog/blog/java-vs-js/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/java-vs-js/</guid>
+      <description>So Sánh Java Và JavaScript Trong Lập Trình Mạng: Điểm Giống Và Khác BiệtDù tên gọi gần giống nhau, Java và JavaScript là hai ngôn ngữ hoàn toàn khác biệt về thiết kế, mục đích và cách hoạt động. Nhiều người mới hay nhầm lẫn, nhưng thực tế chúng chỉ chung “cha đẻ” thời kỳ đầu internet bùng nổ.</description>
+      
+    </item>
+    
+    <item>
+      <title>Xây Dựng Ứng Dụng Chat Đơn Giản Bằng Java Socket: Hướng Dẫn Từ A Đến Z</title>
+      <link>http://localhost:1313/PersonalBlog/blog/java-socket-chat.md/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/java-socket-chat.md/</guid>
+      <description>Xây Dựng Ứng Dụng Chat Đơn Giản Bằng Java Socket: Hướng Dẫn Từ A Đến ZXây dựng ứng dụng chat client-server là một trong những dự án thực tế thú vị nhất để nắm vững lập trình mạng trong Java. Dự án này giúp bạn hiểu sâu về Socket TCP, multi-threading, và cách xử lý kết nối đồng thời.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

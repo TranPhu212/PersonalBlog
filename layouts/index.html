@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="custom-homepage">
+  <section class="about-section">
+    <div class="about-card">
+      <div class="about-image">
+        <img src="images/avatar.png" alt="Trần Phú" class="profile-photo">
+      </div>
+      <div class="about-info">
+        <h1 class="about-name">Trần Đình Phú</h1>
+        <h2 class="about-headline">Sinh viên CNTT • Đam mê Game Development & Web</h2>
+        <p class="about-description">
+          Portfolio cá nhân kiêm CV trực tuyến.<br>
+          Sinh viên năm 4 HUTECH, chuyên ngành Công nghệ Phần mềm.<br>
+          Đam mê lập trình game trên Unity và phát triển web.<br>
+        </p>
+        <div class="about-social">
+          <a href="https://github.com/TranPhu212" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:phutd0212@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="about-buttons">
+        <a href="{{ "ve-toi" | relURL }}" class="cv-button primary">
+        <i class="fas fa-file-alt"></i> Xem Resume</a>
+        <a href="{{ "blog" | relURL }}" class="cv-button secondary">
+        <i class="fas fa-folder-open"></i> Xem Portfolio</a>
+        <a href="{{ "lien-he" | relURL }}" class="cv-button contact">Liên Hệ Ngay</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-section">
+    <h2 class="section-title">Năng Lực Cốt Lõi</h2>
+    <div class="skills-tags">
+      <span class="skill-tag">Fullstack Developer</span>
+      <span class="skill-tag">Web Development</span>
+      <span class="skill-tag">Game Programming in Unity</span>
+    </div>
+  </section>
+  <section class="featured-section">
+    <h2 class="section-title">Bài Viết & Dự Án Nổi Bật</h2>
+    <div class="featured-posts">
+      {{ range first 4 (where site.RegularPages "Section" "blog") }}
+      <article class="post-card">
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <p class="post-summary">{{ .Summary | truncate 150 }}</p>
+        <div class="post-meta">
+          <time>{{ .Date.Format "02/01/2006" }}</time>
+          {{ if .Params.tags }}
+          <span class="tags">
+            {{ range .Params.tags }}
+            <span class="tag">{{ . }}</span>
+            {{ end }}
+          </span>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    <div class="view-all">
+      <a href="{{ "blog" | relURL }}" class="cv-button secondary"> Xem Tất Cả Portfolio →</a>
+    </div>
+  </section>
+
+</div>
+{{ end }}

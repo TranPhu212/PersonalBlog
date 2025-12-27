@@ -1,0 +1,88 @@
+baseURL = "https://tranphu212.github.io/PersonalBlog/"
+languageCode = "vi-vn"
+title = "Portfolio Lập Trình Mạng - Trần Phú"
+theme = "blowfish"
+
+pluralizeListTitles = false
+
+# Cho phép Raw HTML để <script>, <iframe>, <img> trong bài viết chạy được
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  displayFullLangName = true
+  defaultTheme = "dark"
+  showSearch = true
+  showBreadCrumbs = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showAuthor = false
+
+  # TẮT profileMode cũ để dùng custom layout
+  profileMode = false
+  profileImage = "avatar.png"
+  profileTitle = "Trần Đình Phú"
+  profileSubtitle = "Lập trình viên Full-stack • Java Socket & JavaScript Specialist"
+  profileDescription = "Portfolio cá nhân kiêm CV trực tuyến. Chia sẻ kiến thức lập trình mạng từ các khóa học Oracle Java, freeCodeCamp JavaScript và dự án thực tế."
+
+# Social icons hiển thị trên hero trang chủ
+[[params.socialIcons]]
+  icon = "fab fa-github"
+  title = "GitHub"
+  url = "https://github.com/TranPhu212"
+
+
+[[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "Email"
+  url = "mailto:phutd0212@gmail.com"
+
+# Menu chính - CV sections
+[[menu.main]]
+  identifier = "home"
+  name = "Trang chủ"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  name = "Về tôi"
+  url = "/ve-toi/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  url = "/blog/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "certificates"
+  name = "Chứng chỉ"
+  url = "/chung-chi/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Liên hệ"
+  url = "/lien-he/"
+  weight = 5
+
+# Cấu hình tìm kiếm Fuse.js
+[params.fuseOpts]
+  isCaseSensitive = false
+  minMatchCharLength = 2
+  location = 0
+  threshold = 0.3
+  distance = 100
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]

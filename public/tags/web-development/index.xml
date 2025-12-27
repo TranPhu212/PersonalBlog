@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on Portfolio Lập Trình Mạng - Trần Phú</title>
+    <link>http://localhost:1313/PersonalBlog/tags/web-development/</link>
+    <description>Recent content in Web Development on Portfolio Lập Trình Mạng - Trần Phú</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi-vn</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/PersonalBlog/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JavaScript Cơ Bản: Từ Khóa Học Web Đến Ứng Dụng Thực Tế</title>
+      <link>http://localhost:1313/PersonalBlog/blog/js-basic/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/js-basic/</guid>
+      <description>JavaScript Cơ Bản: Từ Khóa Học Web Đến Ứng Dụng Thực TếJavaScript (JS) là ngôn ngữ lập trình không liên quan gì đến Java về kỹ thuật, dù tên gần giống. JS là một trong ba trụ cột của web hiện đại (cùng HTML và CSS), chạy trực tiếp trên trình duyệt và cả server (Node.js).JS là dynamically typed, linh hoạt, và mạnh mẽ trong việc thêm tương tác cho trang web: từ validate form, slider ảnh, đến ứng dụng web phức tạp như Gmail hay Facebook.</description>
+      
+    </item>
+    
+    <item>
+      <title>Thao Tác Với DOM Trong JavaScript: Làm Chủ Giao Diện Web</title>
+      <link>http://localhost:1313/PersonalBlog/blog/dom-js/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/dom-js/</guid>
+      <description>Thao Tác Với DOM Trong JavaScript: Làm Chủ Giao Diện WebDOM (Document Object Model) là cây cấu trúc đại diện cho toàn bộ trang HTML. JavaScript có thể đọc, thay đổi, thêm/xóa phần tử trên DOM → biến trang web tĩnh thành động và tương tác.DOM là nền tảng của mọi thao tác frontend: thay đổi nội dung, style, xử lý click, form validation… và cũng là cơ sở cho các framework hiện đại như React, Vue.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

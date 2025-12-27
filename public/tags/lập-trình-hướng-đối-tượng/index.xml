@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lập Trình Hướng Đối Tượng on Portfolio Lập Trình Mạng - Trần Phú</title>
+    <link>http://localhost:1313/PersonalBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng/</link>
+    <description>Recent content in Lập Trình Hướng Đối Tượng on Portfolio Lập Trình Mạng - Trần Phú</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi-vn</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/PersonalBlog/tags/l%E1%BA%ADp-tr%C3%ACnh-h%C6%B0%E1%BB%9Bng-%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lập Trình Hướng Đối Tượng Trong Java: Nền Tảng Và Ứng Dụng Thực Tế</title>
+      <link>http://localhost:1313/PersonalBlog/blog/oop-java/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/PersonalBlog/blog/oop-java/</guid>
+      <description>Lập Trình Hướng Đối Tượng Trong Java: Nền Tảng Và Ứng Dụng Thực TếLập trình hướng đối tượng (OOP) là cốt lõi thiết kế của Java. Mọi thứ trong Java đều là đối tượng (trừ một số kiểu nguyên thủy). OOP giúp code dễ bảo trì, tái sử dụng và mở rộng – đặc biệt quan trọng trong các dự án lớn như hệ thống ngân hàng, doanh nghiệp.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
